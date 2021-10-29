@@ -1,0 +1,32 @@
+import time
+
+print("Madlibs game made by MagicMuffinBoi! Feel free to star this GitHub project.")
+time.sleep(0.2)
+print("Enter in words as specified below")
+
+# Tells the user to input adjectives, places, nouns, and activites.
+male_name = input("Male name: ")
+time.sleep(0.3)
+adjective1 = input("Adjective 1: ")
+time.sleep(0.3)
+adjective2 = input("Adjective 2: ")
+time.sleep(0.3)
+place1 = input("Place 1: ")
+time.sleep(0.3)
+place2 = input("Place 2: ")
+time.sleep(0.3)
+noun1 = input("Noun 1: ")
+time.sleep(0.3)
+noun2 = input("Noun 2: ")
+time.sleep(0.3)
+noun4 = input("Noun 4 (plural): ")
+time.sleep(0.3)
+activity1 = input("Activity 1: ")
+time.sleep(0.3)
+activity2 = input("Activity 2: ")
+time.sleep(0.3)
+activity3 = input("Activity 3: ")
+time.sleep(0.3)
+print("")
+# Prints the madlib
+print(male_name, " is a ", adjective1, noun1, " who lives in ", place1, " and is from a ", adjective2, " family. He lives with his ", noun2, " who is the breadwinner of the family. She earns ", noun4, " by ", activity1, " at Walmart. When ", male_name, "'s ", noun2, " has free time they ", activity2, " together and have fun ", activity3, "in", place2, ".")
